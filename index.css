@@ -197,6 +197,10 @@
 
 }
 
+.conditionsBlock {
+  margin-bottom: 1rem;
+}
+
 #emailInput {
   width: 227px;
   margin: 1rem 0;
