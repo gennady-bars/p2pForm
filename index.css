@@ -177,6 +177,10 @@
   margin-bottom: 1rem;
 }
 
+.inputsBlockItem label {
+  white-space: nowrap;
+}
+
 #paymentComission {
   margin-left: 2.7rem;
 }
