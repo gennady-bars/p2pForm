@@ -60,7 +60,7 @@
 .validThru {
   position: absolute;
   left: -20px;
-  bottom: 5px;
+  bottom: 3px;
   font-size: x-small;
 }
 
@@ -186,7 +186,8 @@
 }
 
 .inputsBlockInput {
-  width: 120px;
+  width: 110px;
+  margin: 5px 0
 }
 
 .inputsBlock {
