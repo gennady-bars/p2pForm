@@ -181,8 +181,8 @@
   white-space: nowrap;
 }
 
-#paymentComission {
-  margin-left: 2.7rem;
+.comissionLabel {
+  margin-right: 2.7rem;
 }
 
 .inputsBlockInput {
