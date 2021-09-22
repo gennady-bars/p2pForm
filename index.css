@@ -1,0 +1,253 @@
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 1rem auto;
+  transition: all 0.2s ease-in;
+  color: gray;
+}
+
+.center {
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  transition: all 0.2s ease-in;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gray {
+  background-color: gray;
+  background: linear-gradient(90deg, #8c8e9d 0%, #c7c8cd 100%, rgb(4, 81, 97) 100%);
+}
+
+.green {
+  background-color: #90c36a;
+  background: linear-gradient(90deg, #5da529 0%, #cefaac 100%, #90c36a 100%);
+
+}
+
+.greenText {
+  color: #5da529;
+}
+
+.cardTopText {
+  position: absolute;
+  top: 38px;
+  left: 12px;
+  color: white;
+}
+
+.expiryBlock {
+  position: absolute;
+  bottom: 33px;
+  right: 10px;
+}
+
+.cardHolder {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: gray;
+}
+
+.validThru {
+  position: absolute;
+  left: -20px;
+  bottom: 5px;
+  font-size: x-small;
+}
+
+.cardBack {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background-color: #dadada;
+  /* z-index: -999; */
+  right: -100px;
+  top: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blackStripe {
+  width: 100%;
+  height: 35px;
+  background-color: hsl(0, 0%, 30%);
+  margin-top: 15px;
+}
+
+.CVV-text {
+  font-size: 10px;
+  margin: 5px;
+}
+
+.CVV-input {
+  display: block;
+  width: 35px;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+.grayCardValidThru {
+  padding-bottom: 5px;
+  padding-left: 10px;
+  display: block;
+  font-size: 18px;
+
+}
+
+.greenCard {
+  margin-right: 100px;
+}
+
+.greenArrowBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: #baec93;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 50px solid #baec93;
+} 
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  transition: all 0.2s ease-in;
+
+}
+
+.cardsBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  transition: all 0.2s ease-in;
+
+  
+}
+
+.cardWrapper {
+  margin: 1rem;
+  transition: all 0.2s ease-in;
+
+}
+
+.cardNubmerBlock {
+  display: flex;
+  justify-content:space-around ;
+  padding-top: 60px;
+
+
+}
+
+.cardNubmerBlock input {
+  width: 40px;
+  margin: 0.2rem;
+  padding-left: 0.3rem;
+}
+
+.formMainBody {
+  margin: 1rem
+}
+
+.inputsBlockItem {
+  margin-bottom: 1rem;
+}
+
+#paymentComission {
+  margin-left: 2.7rem;
+}
+
+.inputsBlockInput {
+  width: 120px;
+}
+
+.inputsBlock {
+  width: 250px;
+  margin: 0 auto;
+  /* border: red 1px solid; */
+
+}
+
+#emailInput {
+  width: 227px;
+  margin: 1rem 0;
+}
+
+.d-block {
+  display: block;
+}
+
+.submitBtn {
+  width: 100%;
+  height: 2rem;
+  margin: 0;
+  background-color: #5da529;
+  color: white;
+  transition: all 0.2s ease-in;
+  border-color: #5da529 !important;
+}
+
+.submitBtn:hover {
+  background-color: #90c36a;
+}
+
+.emailAndButtonBlock {
+  width: 235px;
+  margin: 1rem auto;
+
+}
+
+input, select {
+  border-color: hsl(0, 0%, 90%);
+  height: 1.5rem;
+}
+
+select {
+  padding: 5px;
+  height: 1.8rem;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .cardsBlock {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .greenArrowBlock {
+      transform: rotate(90deg);
+      margin: 1rem;
+    }
+
+    .cardBack {
+      width: 70px;
+      right: -70px;
+    }
+    .greenCard {
+      margin-right: 70px;
+    }
+}
